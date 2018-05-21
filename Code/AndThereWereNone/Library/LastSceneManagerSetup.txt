@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/CognacCatcher/CognacCatcher.unity
+- path: Assets/ChargePush/ChargePush.unity
   isLoaded: 1
   isActive: 1

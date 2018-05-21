@@ -66,10 +66,10 @@ public class CatchControll : MonoBehaviour {
         while (Timeleft != 0)
         {
             Timeleft--;
-            yield return new WaitForSeconds(1f);
             var fp = (Timeleft - (Timeleft % 60)) / 60;
             var sp = Timeleft % 60;
             TimeLeftText.text = String.Format("{0}:{1}",fp.ToString(),sp<10?("0"+sp):sp.ToString());
+            yield return new WaitForSeconds(1f);
         }
 
         //lost 
