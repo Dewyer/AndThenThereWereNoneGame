@@ -641,7 +641,7 @@ Animator:
   m_GameObject: {fileID: 478668521}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8b50609441c7b45e7865878366caa091, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -665,7 +665,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.9, y: 1.2}
+    oldSize: {x: 2.4, y: 1.4}
     newSize: {x: 1.9, y: 1.2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -708,9 +708,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 970dfe93f15d846c3affab4ad8721ade, type: 3}
-  m_Color: {r: 1, g: 0.654902, b: 0.654902, a: 1}
-  m_FlipX: 1
+  m_Sprite: {fileID: 21300000, guid: 03e0048ce8affc146b3a48bf7a02fb27, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1.9, y: 1.2}
@@ -1494,6 +1494,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f06e230761d444118b184e48d0c90c1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AllShells:
+  - {fileID: 118730701}
+  - {fileID: 126958365}
+  - {fileID: 73145720}
+  - {fileID: 77131500}
+  - {fileID: 220264630}
+  - {fileID: 944700384}
   MaxShells: 0
 --- !u!1 &2117845802
 GameObject:
