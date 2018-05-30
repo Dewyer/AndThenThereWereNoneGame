@@ -8,6 +8,7 @@ TagManager:
   - BinBottom
   - Controll
   - FallingItem
+  - BulletShell
   layers:
   - Default
   - TransparentFX
