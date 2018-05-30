@@ -9,6 +9,7 @@ TagManager:
   - Controll
   - FallingItem
   - BulletShell
+  - SoundTrack
   layers:
   - Default
   - TransparentFX
