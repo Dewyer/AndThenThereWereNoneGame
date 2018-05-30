@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/ChargePush/ChargePush.unity
+- path: Assets/RevolverReaction/RevolverReaction.unity
   isLoaded: 1
   isActive: 1
