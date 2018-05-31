@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/ChargePush/ChargePush.unity
+- path: Assets/BeeSwarm/BeeSwarm.unity
   isLoaded: 1
   isActive: 1
