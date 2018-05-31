@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AxeThrow : MonoBehaviour
 {
@@ -20,9 +21,16 @@ public class AxeThrow : MonoBehaviour
         transform.Rotate(new Vector3(0,0, degs));
 	}
 
+    public IEnumerator Navigate()
+    {
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadSceneAsync(PlayerPrefs.GetString("nextPanel"));
+    }
+
     public void OnCollisionEnter2D(Collision2D col)
     {
         Debug.Log("asds");
         Camera.main.gameObject.GetComponent<Animator>().SetBool("Blooding",true);
+        StartCoroutine(Navigate());
     }
 }

@@ -5,6 +5,7 @@ using Newtonsoft.Json;
 using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
+using UnityEngine.SceneManagement;
 
 public class MainMenuControll : MonoBehaviour
 {
@@ -13,12 +14,9 @@ public class MainMenuControll : MonoBehaviour
 
     public void StartPressed()
     {
-        var res = JsonConvert.SerializeObject(new TextSource()
-        {
-            Panels = new List<Panel>() {new Panel() {Strings = new Dictionary<string, string>() {{"asd", "asd"},{"ass","my"}}},new Panel() {Strings = new Dictionary<string, string>(){{"my","ass"}}}}
-        });
-
-        File.WriteAllText("Resources/enb.json",res);
+        PlayerPrefs.SetString("nextPanel","00Story");
+        PlayerPrefs.Save();
+        SceneManager.LoadScene("TextScene");
     }
 
     public void ExitPressed()

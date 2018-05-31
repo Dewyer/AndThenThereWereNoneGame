@@ -5,8 +5,11 @@ using System.Text;
 
 namespace Assets.SharedAssets
 {
-    class Panel
+    public class Panel
     {
+        public string Name;
+        public string NextScene;
+        public string NextPanel;
         public Dictionary<string, string> Strings;
     }
 }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Assets.SharedAssets
 {
-    class TextSource
+    public class TextSource
     {
         public List<Panel> Panels;
 

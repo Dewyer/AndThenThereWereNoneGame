@@ -1,18 +1,32 @@
-{
-"Panels":[
-	{
-		"Strings":{
-			"asd":"asd",
-			""
-		}
-	},
-	{
-		"Strings":
-		{
-			"my":"ass"
-		}
-	}
-
-]
-
+{  
+   "Panels":[  
+      {  
+         "Name":"00Story",
+         "NextScene":"PillBasketball",
+		 "NextPanel":"01Story",
+         "Strings":{  
+            "0":"FuckMYass",
+            "1":"my god\nis a virgin"
+         }
+      },
+	  {  
+         "Name":"01Story",
+         "NextScene":"PillBasketball",
+		 "NextPanel":"02Story",
+         "Strings":{  
+            "0":"FuckMYass",
+            "1":"my god\nis a virgin"
+         }
+      },
+	  {  
+         "Name":"GameOvers",
+         "NextScene":"-",
+		 "NextPanel":"-",
+         "Strings":{  
+            "0":"Game over",
+            "1":"my god\nis a virgin",
+			"2":"other one"
+         }
+      }
+   ]
 }

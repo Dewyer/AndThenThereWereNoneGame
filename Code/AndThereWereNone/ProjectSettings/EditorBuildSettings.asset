@@ -4,4 +4,28 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/MainMenu/MainMenu.unity
+    guid: eb73164e9239ffe41a86cb6dbdd7c06b
+  - enabled: 1
+    path: Assets/Cutscenes/TextScene/TextScene.unity
+    guid: 0b58939c1b25a204eae55a8ae9642349
+  - enabled: 1
+    path: Assets/PillBasketball/PillBasketball.unity
+    guid: 39c6dfa1a521e034ea9aee44c09496ea
+  - enabled: 1
+    path: Assets/CognacCatcher/CognacCatcher.unity
+    guid: 2e9e5be8934df2e4ba07b1f18cc89671
+  - enabled: 1
+    path: Assets/AxeBalance/AxeBalance.unity
+    guid: 7836aded29c0c294fa5ed09d40246a1a
+  - enabled: 1
+    path: Assets/BeeSwarm/BeeSwarm.unity
+    guid: b63d239f33d57cd41a6ac51c2880b4dd
+  - enabled: 1
+    path: Assets/ChargePush/ChargePush.unity
+    guid: 42a78073e506dff4eaa630f8bbabea0f
+  - enabled: 1
+    path: Assets/RevolverReaction/RevolverReaction.unity
+    guid: 65167e5c882fa4e88bd8e58dbca1c44c

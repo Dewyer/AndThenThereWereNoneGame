@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class BeeController : MonoBehaviour {
@@ -126,5 +127,6 @@ public class BeeController : MonoBehaviour {
         }
 
         //WIN 
+        SceneManager.LoadSceneAsync(PlayerPrefs.GetString("nextPanel"));
     }
 }

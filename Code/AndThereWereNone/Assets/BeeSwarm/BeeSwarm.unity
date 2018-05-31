@@ -506,6 +506,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1357587485}
   - component: {fileID: 1357587484}
+  - component: {fileID: 1357587486}
   m_Layer: 0
   m_Name: inject
   m_TagString: Player
@@ -570,6 +571,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1357587486
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1357587483}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.9
 --- !u!1 &1941485186
 GameObject:
   m_ObjectHideFlags: 0

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 //using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BeeMotor : MonoBehaviour
 {
@@ -30,6 +31,24 @@ public class BeeMotor : MonoBehaviour
     {
         yield return new WaitForSeconds(1.1f);
         Destroy(gameObject);
+    }
+
+    public void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "player")
+        {
+            StartCoroutine(StartKill());
+        }
+    }
+
+    private IEnumerator StartKill()
+    {
+        yield return new WaitForSeconds(1f);
+        //KILLA
+        if (!Dead)
+        {
+            SceneManager.LoadSceneAsync("GameOver");
+        }
     }
 
     // Update is called once per frame
