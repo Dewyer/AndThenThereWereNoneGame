@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 7}
-  m_MinSize: {x: 950, y: 521}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -67,10 +67,10 @@ MonoBehaviour:
     y: 0
     width: 232
     height: 947
-  m_MinSize: {x: 232, y: 471}
-  m_MaxSize: {x: 10002, y: 14021}
+  m_MinSize: {x: 232, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 67
+  controlID: 54
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -117,10 +117,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 613, y: 471}
-  m_MaxSize: {x: 18008, y: 14021}
+  m_MinSize: {x: 613, y: 492}
+  m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 66
+  controlID: 94
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -168,7 +168,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 521}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &8
 MonoBehaviour:
@@ -248,12 +248,14 @@ MonoBehaviour:
   m_Script: {fileID: 12157, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AutoRepaintOnSceneChange: 0
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Services
     m_Image: {fileID: 0}
     m_Tooltip: 
+  m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
     x: 1614
@@ -278,6 +280,7 @@ MonoBehaviour:
   m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AutoRepaintOnSceneChange: 0
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
@@ -285,6 +288,7 @@ MonoBehaviour:
     m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
+  m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
     x: 1614
@@ -292,10 +296,8 @@ MonoBehaviour:
     width: 306
     height: 926
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization: 
-  m_LockTracker:
-    m_IsLocked: 0
+  m_ScrollPosition: {x: 0, y: 0}
+  m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 100
     m_ControlHash: -371814159
@@ -312,6 +314,7 @@ MonoBehaviour:
   m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AutoRepaintOnSceneChange: 1
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
@@ -319,6 +322,7 @@ MonoBehaviour:
     m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
+  m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
     x: 234
@@ -332,14 +336,10 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 691.6139, y: 456.28467, z: 6.9267445}
+    m_Target: {x: 609.26965, y: 442.98642, z: 5.7407193}
     speed: 2
-    m_Value: {x: 691.6139, y: 456.28467, z: 6.9267445}
+    m_Value: {x: 609.26965, y: 442.98642, z: 5.7407193}
   m_RenderMode: 0
-  m_CameraMode:
-    drawMode: 0
-    name: Shaded
-    section: Shading Mode
   m_ValidateTrueMetals: 0
   m_SceneViewState:
     showFog: 0
@@ -366,9 +366,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 840.48303
+    m_Target: 959.1308
     speed: 2
-    m_Value: 840.48303
+    m_Value: 959.1308
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -391,6 +391,7 @@ MonoBehaviour:
   m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AutoRepaintOnSceneChange: 0
   m_MinSize: {x: 230, y: 250}
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
@@ -398,6 +399,7 @@ MonoBehaviour:
     m_Image: {fileID: -7501376956915960154, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
+  m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
     x: 0
@@ -417,19 +419,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scenes
+    - Assets
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: E:\Projects\AndThenThereWereNone\Concepts\Startscreen\idunnoitsgonnaberenamed
-  m_LockTracker:
-    m_IsLocked: 0
+  m_LastProjectPath: F:\Projects\AndThereWereNone\Concepts\Startscreen\idunnoitsgonnaberenamed
+  m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: b6280000
     m_LastClickedID: 10422
-    m_ExpandedIDs: 00000000502900000c2a0000362a0000
+    m_ExpandedIDs: 00000000682f0000822f00008c2f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -457,21 +458,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000502900000c2a0000362a0000
+    m_ExpandedIDs: 00000000682f0000822f00008c2f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: FourthTut (5)
-      m_OriginalName: FourthTut (5)
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 14742
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
@@ -523,6 +524,7 @@ MonoBehaviour:
   m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AutoRepaintOnSceneChange: 0
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
@@ -530,6 +532,7 @@ MonoBehaviour:
     m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
+  m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
     x: 0
@@ -539,9 +542,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a25c0000
-    m_LastClickedID: 23714
-    m_ExpandedIDs: c807f6ff160ff6ff6217f6fff01ef6ffa227f6ff9e28f6ff9035f6ff0444f6ffb84af6ff025af6ff6c5cf6fffec1f6ff48c6f6ff9c1ff7ff2822f7ffe225f7ff344cf7ff2c50f7ff586bf7ff3a80f7ff3284f7ffce89f7ff528cf7ff568df7ff7e90f7ffd293f7ffbc94f7ff3497f7ffd899f7ffbc9cf7ffba9ff7ff96a4f7ff9eb0f7ff66b3f7ff08b7f7ffbab9f7ff3cd0f7ff44d1f7ff0edaf7ffc4f1f7ff3cf9f7ffbafbf7ffda03f8ff9016f8ffb819f8ff621df8ff6a46f8ff2047f8ffc091f8ffc692f8ff82e5f8ff72e6f8ff08e9f8ff74eaf8ff60ebf8ff02edf8ffecedf8ff9ceef8ff60f7f8ff545ff9ff6a6af9ff626bf9ff666cf9ff586df9ff8e73f9ff7874f9ffa094f9ff80c8f9ff70c9f9ffd45ffaffe460faffca61faffa662faff7663faffcc66faff924ffbffd250fbffe852fbfffa54fbff0a56fbff5e6dfbff0a85fbff9cb2fbff3ebefbffa2d9fbff2462fcff9afafcfff0fbffff00000000d82b0000882c0000be2c0000a42d0000082e00003e2e0000b230000080310000b63100005a3500006c3500009036000038380000c6380000fa3c00007e3d0000823e0000283f0000de3f00001a410000bc4100002e4200005e420000ba420000584500007445000088450000ee4d0000524e00005e4f0000a8510000fa510000f053000042540000fe540000425500005c5500006e550000ac56000060570000725800008e580000a2590000325a0000f05a0000e65b0000645c0000
+    m_SelectedIDs: 5a070000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 98e9ffff60eaffff26ebffffbaecffffe4edffffa4efffffa6f0ffffb0f1ffffd8faffff00000000a2350000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -562,8 +565,7 @@ MonoBehaviour:
   m_ExpandedScenes:
   - SampleScene (0)
   m_CurrenRootInstanceID: 0
-  m_LockTracker:
-    m_IsLocked: 0
+  m_Locked: 0
   m_CurrentSortingName: TransformSorting
 --- !u!114 &16
 MonoBehaviour:
@@ -576,6 +578,7 @@ MonoBehaviour:
   m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AutoRepaintOnSceneChange: 1
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
@@ -583,6 +586,7 @@ MonoBehaviour:
     m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
+  m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
     x: 234
