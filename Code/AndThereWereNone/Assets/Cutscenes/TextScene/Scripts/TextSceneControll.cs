@@ -66,6 +66,7 @@ public class TextSceneControll : MonoBehaviour
         if (direction == 1 && AtSlide == slideCount-1)
         {
             //navigate
+            PlayerPrefs.SetString("lastScene", ThisPanel.NextScene);
             PlayerPrefs.SetString("nextPanel",ThisPanel.NextPanel);
             PlayerPrefs.Save();
             SceneManager.LoadScene(ThisPanel.NextScene);

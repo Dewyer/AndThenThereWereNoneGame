@@ -127,6 +127,6 @@ public class BeeController : MonoBehaviour {
         }
 
         //WIN 
-        SceneManager.LoadSceneAsync(PlayerPrefs.GetString("nextPanel"));
+        SceneManager.LoadSceneAsync("TextScene");
     }
 }

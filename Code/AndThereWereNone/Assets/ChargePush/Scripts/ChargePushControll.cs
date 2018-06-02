@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ChargePushControll : MonoBehaviour
@@ -68,7 +69,8 @@ public class ChargePushControll : MonoBehaviour
 	    {
             //U lose
             Debug.Log("Lost");
-	        IsOver = true;
+	        SceneManager.LoadSceneAsync("GameOver");
+            IsOver = true;
 	    }
 
 	    if (!IsOver && IsCharging)
@@ -77,6 +79,7 @@ public class ChargePushControll : MonoBehaviour
 	        {
                 //WON
                 Debug.Log("Won");
+	            SceneManager.LoadSceneAsync("TextScene");
 	        }
 	        else
 	        {

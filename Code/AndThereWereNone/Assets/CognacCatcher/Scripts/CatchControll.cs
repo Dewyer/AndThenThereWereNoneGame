@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
@@ -73,6 +74,7 @@ public class CatchControll : MonoBehaviour {
         }
 
         //lost 
+        SceneManager.LoadSceneAsync("GameOver");
     }
 
     public void GotDroplet(GameObject what)
@@ -87,6 +89,7 @@ public class CatchControll : MonoBehaviour {
                 if (PillCount == TargetCount)
                 {
                     //WIN
+                    SceneManager.LoadSceneAsync("TextScene");
                 }
             }
             else

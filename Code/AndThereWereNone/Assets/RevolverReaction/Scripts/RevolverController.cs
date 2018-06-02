@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class RevolverController : MonoBehaviour {
@@ -112,6 +113,13 @@ public class RevolverController : MonoBehaviour {
     {
         Debug.Log("Kee");
         GameObject.FindGameObjectWithTag("Finish").GetComponent<Animator>().SetBool("PlayerDies", true);
+        StartCoroutine(StartGameOver());
+    }
+
+    private IEnumerator StartGameOver()
+    {
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadSceneAsync("GameOver");
     }
 
     public void RegisterPlayerShoot()
@@ -128,6 +136,7 @@ public class RevolverController : MonoBehaviour {
         {
             //WonOVer
             Debug.Log("Player final won");
+            SceneManager.LoadSceneAsync("TextScene");
         }
         
     }

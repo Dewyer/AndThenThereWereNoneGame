@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PillControl : MonoBehaviour {
@@ -28,11 +29,13 @@ public class PillControl : MonoBehaviour {
             if (Score == TargetScore)
             {
                 Debug.Log("Victory");
+                SceneManager.LoadSceneAsync("TextScene");
             }
         }
         else
         {
             Score = 0;
+            SceneManager.LoadSceneAsync("GameOver");
         }
 
         ScoreText.text = String.Format("{0}/{1}",Score,TargetScore);

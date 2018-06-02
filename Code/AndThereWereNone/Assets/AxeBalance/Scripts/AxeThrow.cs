@@ -24,7 +24,7 @@ public class AxeThrow : MonoBehaviour
     public IEnumerator Navigate()
     {
         yield return new WaitForSeconds(1f);
-        SceneManager.LoadSceneAsync(PlayerPrefs.GetString("nextPanel"));
+        SceneManager.LoadSceneAsync("TextScene");
     }
 
     public void OnCollisionEnter2D(Collision2D col)
