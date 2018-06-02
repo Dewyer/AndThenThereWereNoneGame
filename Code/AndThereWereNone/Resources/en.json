@@ -5,17 +5,63 @@
          "NextScene":"PillBasketball",
 		 "NextPanel":"01Story",
          "Strings":{  
-            "0":"FuckMYass",
-            "1":"my god\nis a virgin"
+            "0":"In this game you are going to play as Lawrence Wargrave.\nYou're stuck on and island with 9 other guilty people, and your goal is to kill them without getting caught.",
          }
       },
 	  {  
          "Name":"01Story",
-         "NextScene":"PillBasketball",
+         "NextScene":"CognacCatcher",
 		 "NextPanel":"02Story",
          "Strings":{  
-            "0":"FuckMYass",
-            "1":"my god\nis a virgin"
+            "0":"The first victim is the young and careless Anthony Marston. He ran over 2 kids with his car.\nLet's slow his pace a bit.",
+         }
+      },
+	  {  
+         "Name":"02Story",
+         "NextScene":"CognacCatcher",
+		 "NextPanel":"03Story",
+         "Strings":{  
+            "0":"After the man falls to the ground and dies Mrs. Rogers faints. The others carry her up to her room. She gets a drink and some pills, but be careful, don't overdose.",
+         }
+      },
+	  {  
+         "Name":"01Story",
+         "NextScene":"CognacCatcher",
+		 "NextPanel":"04Story",
+         "Strings":{  
+            "0":"She sleeps in her bed peacefully. It takes some time for the others to find out she's never going to wake up, just like the old lady she and her husband let down.\nThis man has regret sending his friend to death, for this he shouldn't suffer much.",
+         }
+      },
+	  {  
+         "Name":"01Story",
+         "NextScene":"CognacCatcher",
+		 "NextPanel":"05Story",
+         "Strings":{  
+            "0":"His inevitable faith catches the general the bat easily breaks his neck.\nNext up is Mr.Rogers the other one who let the old lady die. He's chopping p some wood, he probably won't hear a thing.",
+         }
+      },
+	  {  
+         "Name":"01Story",
+         "NextScene":"CognacCatcher",
+		 "NextPanel":"06Story",
+         "Strings":{  
+            "0":"The axe easily split his skull open.\nI am the next one to die. I team up with the doctor and we fake my death. I sit in a chair with a wig on my head and some scarletred wax on my forehead to mimic a gunshot. With this I take any suspicion off of me and can continue my work undisturbed.",
+         }
+      },
+	  {  
+         "Name":"01Story",
+         "NextScene":"CognacCatcher",
+		 "NextPanel":"07Story",
+         "Strings":{  
+            "0":"Next up is the cold-blooded Emily Brent. She drove a young woman mad, until one day she couldn't handle it anymore and jumped off a bridge. This crazy lady doesn't even feel bad about what she did, maybe she wont't even feel the sting of the syrange.",
+         }
+      },
+	  {  
+         "Name":"01Story",
+         "NextScene":"CognacCatcher",
+		 "NextPanel":"08Story",
+         "Strings":{  
+            "0":"The others found her in the same chair they left her only now her lips were blue as cyanide.",
          }
       },
 	  {  
@@ -24,8 +70,15 @@
 		 "NextPanel":"-",
          "Strings":{  
             "0":"Game over",
-            "1":"my god\nis a virgin",
-			"2":"other one"
+            "1":"Retry",
+			"2":"Try one more time",
+			"3":"Sorry, but you have to retry",
+			"4":"Nope. That didn't work",
+			"5":"Go again",
+			"6":"You should try again",
+			"7":"Give it another try",
+			"8":"Maybe another time",
+			"9":"Better luck next time"
          }
       }
    ]
