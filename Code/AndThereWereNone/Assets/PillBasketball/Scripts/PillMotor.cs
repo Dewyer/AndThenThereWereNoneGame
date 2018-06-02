@@ -52,7 +52,7 @@ public class PillMotor : MonoBehaviour {
 
         }
 
-        if (Input.GetMouseButtonUp(1) && OnDrag)
+        if (Input.GetMouseButtonUp(MouseButton) && OnDrag)
         {
             OnDrag = false;
             OnDragLiftUp();

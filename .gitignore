@@ -35,3 +35,5 @@ Code/AndThereWereNone/Library/metadata
 *.unitypackage
 Code/AndThereWereNone/Assets/SharedAssets/Astrix - Deep Jungle Walk [Hommega Productions].wav.meta
 Code/AndThereWereNone/Assets/SharedAssets/Astrix - Deep Jungle Walk [Hommega Productions].wav
+*.meta
+*.wav

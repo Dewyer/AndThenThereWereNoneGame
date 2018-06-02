@@ -35,7 +35,7 @@ public class BeeMotor : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.tag == "player")
+        if (col.gameObject.tag == "Player")
         {
             StartCoroutine(StartKill());
         }

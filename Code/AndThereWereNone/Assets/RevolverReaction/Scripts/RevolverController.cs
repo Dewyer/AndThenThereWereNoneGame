@@ -127,7 +127,7 @@ public class RevolverController : MonoBehaviour {
         if (DidAIShoot)
             return;
 
-        if (ShellControll.ShellCount <= ShellControll.MaxShells)
+        if (ShellControll.ShellCount < ShellControll.MaxShells-1)
         {
             ShellControll.ShellCount+=1;
             StartNewRound();

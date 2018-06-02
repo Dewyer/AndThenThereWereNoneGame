@@ -86,7 +86,7 @@ public class TextSceneControll : MonoBehaviour
 	    }
 	    catch (Exception e)
 	    {
-	        Application.Quit();
+	        Debug.Log(e.Message);
 	    }
 
 	    var thisPanelName = PlayerPrefs.GetString("nextPanel");

@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 8
+  serializedVersion: 9
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -39,6 +39,7 @@ RenderSettings:
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
   m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -54,11 +55,10 @@ LightmapSettings:
     m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-    serializedVersion: 9
+    serializedVersion: 10
     m_Resolution: 2
     m_BakeResolution: 40
-    m_TextureWidth: 1024
-    m_TextureHeight: 1024
+    m_AtlasSize: 1024
     m_AO: 0
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
@@ -251,6 +251,52 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!1001 &97485918
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4604194871740004, guid: 3a689eb1f28072f4f8546a96ec9aa3bd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604194871740004, guid: 3a689eb1f28072f4f8546a96ec9aa3bd, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604194871740004, guid: 3a689eb1f28072f4f8546a96ec9aa3bd, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604194871740004, guid: 3a689eb1f28072f4f8546a96ec9aa3bd, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604194871740004, guid: 3a689eb1f28072f4f8546a96ec9aa3bd, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604194871740004, guid: 3a689eb1f28072f4f8546a96ec9aa3bd, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604194871740004, guid: 3a689eb1f28072f4f8546a96ec9aa3bd, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604194871740004, guid: 3a689eb1f28072f4f8546a96ec9aa3bd, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1989965352175774, guid: 3a689eb1f28072f4f8546a96ec9aa3bd, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3a689eb1f28072f4f8546a96ec9aa3bd, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &168671324
 Prefab:
   m_ObjectHideFlags: 0
@@ -577,6 +623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20f8360b5561b149bf7fe80d54de6d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  particle: {fileID: 1989965352175774, guid: 3a689eb1f28072f4f8546a96ec9aa3bd, type: 2}
 --- !u!1 &729970710
 GameObject:
   m_ObjectHideFlags: 0
@@ -1210,6 +1257,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
@@ -1269,7 +1317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe026b7f3283d6646bda95cca3e7f8af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 20
+  Speed: 10
 --- !u!50 &1095411760
 Rigidbody2D:
   serializedVersion: 4
