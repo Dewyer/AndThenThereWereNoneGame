@@ -5,17 +5,104 @@
          "NextScene":"PillBasketball",
 		 "NextPanel":"01Story",
          "Strings":{  
-            "0":"FuckMYass",
-            "1":"my god\nis a virgin"
+            "0":"In this game you are going to play as Lawrence Wargrave.\nYou\'re stuck on and island with 9 other guilty people, and your goal is to kill them without getting caught.",
          }
       },
 	  {  
          "Name":"01Story",
-         "NextScene":"PillBasketball",
+         "NextScene":"CognacCatcher",
 		 "NextPanel":"02Story",
          "Strings":{  
-            "0":"FuckMYass",
-            "1":"my god\nis a virgin"
+            "0":"The first victim is the young and careless Anthony Marston. He ran over 2 kids with his car.\nLet\'s slow his pace a bit.",
+         }
+      },
+	  {  
+         "Name":"02Story",
+         "NextScene":"CognacCatcher",
+		 "NextPanel":"03Story",
+         "Strings":{  
+            "0":"After the man falls to the ground and dies Mrs. Rogers faints. The others carry her up to her room. She gets a drink and some pills, but be careful, don\'t overdose.",
+         }
+      },
+	  {  
+         "Name":"01Story",
+         "NextScene":"CognacCatcher",
+		 "NextPanel":"04Story",
+         "Strings":{  
+            "0":"She sleeps in her bed peacefully. It takes some time for the others to find out she\'s never going to wake up, just like the old lady she and her husband let down.\nThis man regret sending his friend to his death, for this he shouldn\'t suffer much.",
+         }
+      },
+	  {  
+         "Name":"01Story",
+         "NextScene":"CognacCatcher",
+		 "NextPanel":"05Story",
+         "Strings":{  
+            "0":"His inevitable faith catches the general the bat easily breaks his neck.\nNext up is Mr.Rogers the other one who let the old lady die. He\'s chopping p some wood, he probably won\'t hear a thing.",
+         }
+      },
+	  {  
+         "Name":"01Story",
+         "NextScene":"CognacCatcher",
+		 "NextPanel":"06Story",
+         "Strings":{  
+            "0":"The axe easily split his skull open.\nI am the next one to die. I team up with the doctor and we fake my death. I sit in a chair with a wig on my head and some scarletred wax on my forehead to mimic a gunshot. With this I take any suspicion off of me and can continue my work undisturbed.",
+         }
+      },
+	  {  
+         "Name":"01Story",
+         "NextScene":"CognacCatcher",
+		 "NextPanel":"07Story",
+         "Strings":{  
+            "0":"Next up is the cold-blooded Emily Brent. She drove a young woman mad, until one day she couldn\'t handle the lady\'s judgement anymore and jumped off a bridge. This crazy lady doesn\'t even feel bad about what she did, maybe she wont\'t feel the sting of the syringe.",
+         }
+      },
+	  {  
+         "Name":"01Story",
+         "NextScene":"CognacCatcher",
+		 "NextPanel":"08Story",
+         "Strings":{  
+            "0":"The others found her in the same chair they left her only now her lips were blue as cyanide.\nThe doctor is a smart man, but he has done something terrible. This drunken man murdered a woman on the operation table. He was the only one that could\'ve saved her life after Mr. and Mrs. Rogers let her heart stop. Besides he knows I\'m still alive and can roam free. He might find out my secret. I need to get rid of him.",
+         }
+      },
+	  {  
+         "Name":"01Story",
+         "NextScene":"CognacCatcher",
+		 "NextPanel":"09Story",
+         "Strings":{  
+            "0":"I pushed him down the cliff, he\'s sleeping with the fish now.\nThere\'s only 3 of them left. My next victim is detective Blore. The detective presented forged evidence in a case, hence the death sentence of an innoncent man.",
+         }
+      },
+	  {  
+         "Name":"01Story",
+         "NextScene":"CognacCatcher",
+		 "NextPanel":"010Story",
+         "Strings":{  
+            "0":"The bear shaped clock fell on his head breaking his neck, leaving only the young Vera and Philip alive. Vera took the man\'s gun and held him at gunpoint. I wonder what he\'s going to do.",
+         }
+      },
+	  {  
+         "Name":"01Story",
+         "NextScene":"CognacCatcher",
+		 "NextPanel":"011Story",
+         "Strings":{  
+            "0":"The man tried jumping her, but failed and got shot right in the heart. He deserved that for the terrible act he had done. He left a tribe of 21 men without any food or water.\nThe last person standing was Vera. Her death was the most important.\nIn order to make this mass murder perfect i have to make it seem like the killer was a ghost. Vera is already broken mentally she just needs a little help from me.",
+         }
+      },
+	   {  
+         "Name":"01Story",
+         "NextScene":"CognacCatcher",
+		 "NextPanel":"012Story",
+         "Strings":{  
+            "0":"Now I am the only one left on this island and I have to finish what I\'ve started.",
+         }
+      },
+	  {  
+         "Name":"01Story",
+         "NextScene":"CognacCatcher",
+		 "NextPanel":"012Story",
+         "Strings":{  
+			"0":"Throughout this letter I will solve the mystery of the mass murder on the Nigger Island.\nI was a sickly psychopath and this killingspree was only to satisfy my god complex. I was obsessed with the nursery rhyme \"Ten Little Niggers\", and I choose it as the base of the murders. After that I searched for the victims. They were criminals who have escaped the law and should\'ve been behind iron bars, but weren't. Eventually I gathered my victims and invited them to the Nigger Island with different reasons and they all came. After that I starting murdering the criminals on the island. I killed 4 of them then faked my own death and finished the killing. To seal up the perfect mass murder I committed suicide, after all my sins were the worst. I came to the conclusion that if I write this letter, put it in a bottle and set it off in the ocean, the chance of anyone finding it is very low, and even if it gets found it will help solve the mytery around this mass murder."
+			"1":"Lawrence Wargrave"
          }
       },
 	  {  
@@ -24,8 +111,15 @@
 		 "NextPanel":"-",
          "Strings":{  
             "0":"Game over",
-            "1":"my god\nis a virgin",
-			"2":"other one"
+            "1":"Retry",
+			"2":"Try one more time",
+			"3":"Sorry, but you have to retry",
+			"4":"Nope. That didn't work",
+			"5":"Go again",
+			"6":"You should try again",
+			"7":"Give it another try",
+			"8":"Maybe another time",
+			"9":"Better luck next time"
          }
       }
    ]

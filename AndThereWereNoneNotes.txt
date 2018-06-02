@@ -1,4 +1,4 @@
-10 little niggers / And there were none (ez nekem jobban teccik)
+﻿10 little niggers / And there were none (ez nekem jobban teccik)
 
 Wargrave el vagy es meg kell olni a sarcokat
 10? kicsi minigame
@@ -14,18 +14,27 @@ pl bele kell dobálni a pillt a poharába amikor senki sem látja
 de ilyen messenger kosár szerűen 
 
 Minigames:
-	0. Story 1
-	1. Messenger kosár pillel, UI sketch Minigame 1
-	1.5. Story 2
-	2. Konyak cseppek / pillek esnek és mindig a jót kell elkapni
-	3. Ink cutsene, csak par kocka ameddig fejbe nem vagod
-	4. Repulos baszas//15-20 ms ig kéne balancolni a fejszét a kezedben h elérd
+	0. Story 1 X
+	1. Messenger kosár pillel, UI sketch Minigame 1 X
+	1.5. Story 2 X
+	2. Konyak cseppek / pillek esnek és mindig a jót kell elkapni X
+	2.5  Story 3X
+	3. Ink cutsene, csak par kocka ameddig fejbe nem vagodX
+	3.5  Story 4 X
+	4. Repulos baszas//15-20 ms ig kéne balancolni a fejszét a kezedben h elérd X
+	4.5  Story 5
 	5. Cutsene ahogy wargrave ott van
+	5.5  Story 6
 	6. Méhecskés tűket kell lekattintani akik swarmolnak be középre
+	6.5  Story 7
 	7. Fel kell chargolni a lökést de csak akkor tudod amikor nem néz oda
-	8. 
+	7.5  Story 8
+	8.  Csavesznek raesik a fejere a maciora
+	8.5  Story 9
 	9. Reakcion game, amikor ugrik akkor de nem késhetsz el
+	9.5  Story 10
 	10. Felakasztós cutscene
+	10.5 Story 11
 	11. wargrave öngyik keljen nyomi eggyet .
-
+	11.5 Story 12
 	12. Kreditek meg ilyesmi
